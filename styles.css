@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+    }
+
+img {
+        background-attachment: fixed;
+        background-size:cover;
+        background-repeat: no-repeat;  
+        align-items: center;
+        
+    } 
+
+.logo:hover{
+    transform: scale(1.10,1.10);
+}
+.header{
+    position:fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 80px;
+    background-color: black;
+    align-items: center; 
+    border-bottom:5px solid white ;
+}
+
+a{
+    text-decoration: none;  
+    color: gray;    
+}
+
+a:hover{
+    color: white;    
+    transform: scale(1.30,1.10);
+}
+
+.background{
+    background-image: url(./1920x1200-spiderman-miles-lost-in-space-4k_1553071367.jpg);    
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat: no-repeat;    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logotipo{
+    width: 300px;
+    height: 300px;
+}
+
+.sectiontwo{
+    text-align:center;
+    font-size: 40px;
+    height: 40vh;
+
+    background-color: black;
+    color: white;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: bolder;
+    font-style: initial;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+}
+
+
+.sectionthree{
+    background:url(./neycr7.png);
+    background-repeat: no-repeat;    
+    background-attachment: fixed;
+    background-position: center;
+    height: 80vh;
+    background-color: rgb(255, 0, 0);    
+}
+.sectionfour{
+    background:url(./neycr7.png);
+    background-repeat: no-repeat;    
+    background-attachment: fixed;
+    background-position: center;
+    height: 80vh;
+    background-color:#cccccc;
+}
+.sectionfive{
+    border-top:solid 15px grey; ;
+    width:100%;
+    height: 100%;
+    display: flex;
+    font-size: 30px;
+    }
+
+    .sectionfive-one{         
+    background:url(./cruz\ de\ malta2.png);
+    background-repeat: no-repeat;    
+    background-attachment: fixed;
+    background-position:18.55%;
+        
+
+
+        width: 50%;
+        height: 210vh;
+        align-content: center;
+        text-align: center;
+        background-color: rgb(255, 0, 0);
+    
+    }
+    
+    .sectionfive-two{    
+        text-align:left;
+        color: white;       
+        width: 50%;
+        height: 210vh;
+        background-color: black;
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    
+    } 
+
+    .sectionfive-three{
+           
+    background:url(./cruz\ de\ malta2.png);
+    background-repeat: no-repeat;    
+    background-attachment: fixed;
+    background-position:81.5%;
+        
+      width: 50%;
+        height: 210vh;
+        align-content: center;
+        text-align: center;
+        background-color: rgb(255, 0, 0);
+
+    }
+
+    .title{
+        font-size: 150%;
+        font-family: Arial, Helvetica, sans-serif;        
+        margin: 150px;
+        
+    }
+
+    .corpus{
+        font-style: italic;
+        font-size: 75%;
+        
+        font-family:'Times New Roman', Times, serif
+    }
+
+    .corpus1{
+        font-size: 50%;
+    }
+
+    .sectionseven{
+        background:url(./neycr7.png);
+        background-repeat: no-repeat;    
+        background-attachment: fixed;
+        background-position: center;
+        height: 80vh;
+        background-color:rgb(255, 0, 0);    
+    }
+    .sectionsix{
+        background:url(./neycr7.png);
+        background-repeat: no-repeat;    
+        background-attachment: fixed;
+        background-position: center;
+        height: 80vh;
+        background-color:#cccccc;
+    }
+
+
+    
+.sectioneight{
+    width:100%;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    height: 50vh;
+    }
+
+    .sectioneight-one{        
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    font-weight: bolder;
+    font-variant-caps:all-petite-caps ;
+    color: rgb(255, 0, 0);
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    padding-top: 10%;
+    padding-left:30%;
+    
+    }
+    
+    .sectioneight-two{
+    border: 10px white solid;
+    padding-top: 10%;
+    padding-left:5%;
+    padding-right: 15%;
+    } 
+
+    input{
+        background-color: rgb(255, 0, 0);
+        color: white;
+        width: 80%;
+        height: 20px;
+        margin-bottom: 10px;        
+        border-radius: 1px; 
+     
+    }
+    .message{
+        background-color: rgb(255, 0, 0);
+        color: white;
+        width: 80%;
+        height: 100px;        
+    }
+
+    footer{
+        font-size: 50px;
+        height: 100%;
+        background-color: black;
+        color: WHITE;
+        text-align: center;
+        padding: 5%;
+        font-family: 'Lobster', cursive;
+
+    }
